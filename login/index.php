@@ -8,7 +8,7 @@ if (isset($_GET['passwd'])) {
     echo '<!DOCTYPE html>
 <html>
 <head>
-	<title>Login Bypass</title>
+	<title>Login Bypass | Null Ahmedabad</title>
 </head>
 <body style="background-color: #000000">
 <h2 style="color: green">Login bypass</h2>
