@@ -1,13 +1,4 @@
-<?php
-
-include("flag.php");
-
-if (isset($_GET["passwd"])) {
-        if (hash("md5", $_GET["passwd"]) == "0e514198428367523082236389979035")        {
-                echo $flag;
-        } 
-} else {
-    echo '<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Login Bypass | Null Ahmedabad</title>
@@ -15,7 +6,7 @@ if (isset($_GET["passwd"])) {
 <body style="background-color: #000000">
 <h2 style="color: green">Login bypass</h2>
 
-<form action="/ctf/login">
+<form action="http://localhost/ctf/login/action.php" method="POST">
 
 <table style="color: green;">
 	<tr>
@@ -23,7 +14,7 @@ if (isset($_GET["passwd"])) {
 			Password:
 		</td>
 		<td>
-			<input type="Password" name="passwd" value="">
+			<input type="Password" name="passwd">
 		</td>
 	</tr>
 	<tr>
@@ -33,7 +24,5 @@ if (isset($_GET["passwd"])) {
 </table>
 </form>
 </body>
-</html>';
-} 
-?>
+</html>
 
