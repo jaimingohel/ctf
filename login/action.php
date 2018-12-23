@@ -7,8 +7,8 @@ if (isset($_POST["passwd"])) {
                 echo $flag;
         } 
          else {
-			header('Location: /ctf/login');
+			header('Location: http://35.237.220.198/ctf/login');
 		}
 } else {
-	header('Location: /ctf/login');
+	header('Location: http://35.237.220.198/ctf/login');
 }

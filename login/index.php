@@ -6,7 +6,7 @@
 <body style="background-color: #000000">
 <h2 style="color: green">Login bypass</h2>
 
-<form action="/ctf/login/action.php" method="POST">
+<form action="http://35.237.220.198/ctf/login/action.php" method="POST">
 
 <table style="color: green;">
 	<tr>
