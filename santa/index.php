@@ -6,7 +6,7 @@
 	<script type="text/javascript" src="aes.js"></script>
 	<script type="text/javascript" src="common.js"></script>
 
-	<title>Santa's secret</title>
+	<title>Santa's secret | Null Ahmedabad</title>
 </head>
 <body style="background-color: #000000">
 <h2 style="color: green">Can you find santa's secret?</h2>
